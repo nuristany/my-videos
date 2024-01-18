@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/my-videos/static/css/main.52be9acb.css",
+    "main.js": "/my-videos/static/js/main.46b9df6f.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/my-videos/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/my-videos/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/my-videos/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/the-terminator.jpg": "/my-videos/static/media/the-terminator.54fa9d34a71c4012cf35.jpg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/my-videos/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/my-videos/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/getout.jpeg": "/my-videos/static/media/getout.95a30d8212a51263ad16.jpeg",
+    "static/media/The Avengers.jpeg": "/my-videos/static/media/The Avengers.0bac482ab87bf01ad1c2.jpeg",
+    "static/media/die hard.jpeg": "/my-videos/static/media/die hard.7da1233ddf7db6ecc388.jpeg",
+    "static/media/airplane.jpeg": "/my-videos/static/media/airplane.8a20130283ab82710bc1.jpeg",
+    "static/media/trip to italy.jpeg": "/my-videos/static/media/trip to italy.790ef15fe072ddf17382.jpeg",
+    "index.html": "/my-videos/index.html",
+    "main.52be9acb.css.map": "/my-videos/static/css/main.52be9acb.css.map",
+    "main.46b9df6f.js.map": "/my-videos/static/js/main.46b9df6f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52be9acb.css",
+    "static/js/main.46b9df6f.js"
+  ]
+}
