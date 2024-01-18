@@ -3,6 +3,16 @@ import './App.css';
 import * as fakeMovieService from './fakeMovieService';
 import  { useState } from 'react';
 
+function renderStars(dailyRentalRate) {
+  const numberOfStars = Math.round(dailyRentalRate);
+  const starSymbol = '⭐';
+  const spaceBetweenStars = '\u2004'; // Adjust the spacing as needed
+
+  return starSymbol.repeat(numberOfStars).split().join(spaceBetweenStars);
+}
+
+
+
 function App() {
   
   const [movies, setMovies] = useState(fakeMovieService.getMovies());
@@ -11,12 +21,13 @@ function App() {
     const newMovie = movies.filter(m => m._id !== movie._id)
     setMovies(newMovie)
   }
+      
   const movieList = movies.map(movie => (
     <tr key={movie._id}>
       <td>{movie.title}</td>
       <td>{movie.genre.name}</td>
       <td>{movie.numberInStock}</td>
-      <td>{movie.dailyRentalRate}</td>
+      <td>{renderStars(movie.dailyRentalRate)}</td>
       <td>
         <button onClick={() => handleDelete(movie)} className='btn btn-danger'>Delete</button>
       </td>
